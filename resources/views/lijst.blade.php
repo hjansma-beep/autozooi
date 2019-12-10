@@ -68,7 +68,7 @@ function submitForm(){
                         <input type='hidden' name="price[{{ $product['item']['artikelnummer'] }}]" value={{ $product['price'] }}>
                         <input type='hidden' name="artikelnr[{{ $product['item']['artikelnummer']}}]" value= {{$product['item']['artikelnummer']}}>
                         <td style='width: 100px;'><a style='background: red;' href={{ route('product.remove', ['id' => $product['item']['artikelnummer']]) }}
-                                   class="btn btn-success center" role="button">verwijderen</a></td>
+                                   class="btn btn-success center" role="button">Verwijderen</a></td>
                     </tr>
                     @endforeach
                     <tr>
