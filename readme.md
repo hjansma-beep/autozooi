@@ -1,5 +1,5 @@
-Factureringsprogramma
+Factureringsprogramma php + sql in laravel.
 
-database structuur is bijgevoegd met naam sql 
+database structuur is bijgevoegd met naam sql .
 
-(c) henk
+(c) Henk 2019
