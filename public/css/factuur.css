@@ -1,0 +1,155 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    /* width: 90%; */
+  }
+  
+  a {
+    color: #5D6975;
+    text-decoration: underline;
+  }
+  
+  body {
+    position: relative;
+    width: 21cm;  
+    height: 29.7cm; 
+    margin: 0 auto; 
+    color: #001028;
+    background: #FFFFFF; 
+    font-family: Arial, sans-serif; 
+    font-size: 12px; 
+    font-family: Arial;
+  }
+  
+  header {
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  
+  #logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #logo img {
+    width: 90px;
+  }
+  
+  h1 {
+    border-top: 1px solid  #5D6975;
+    border-bottom: 1px solid  #5D6975;
+    color: #5D6975;
+    font-size: 2.4em;
+    line-height: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 20px 0;
+    background: url(dimension.png);
+    width: 90%;
+  }
+  
+  #project {
+    float: left;
+  }
+  
+  #project span {
+    color: #5D6975;
+    text-align: right;
+    width: 52px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 0.8em;
+  }
+  
+  #company {
+    float: right;
+    padding-right: 358px;
+    text-align: right;
+  }
+  
+  #project div,
+  #company div {
+    white-space: nowrap;        
+  }
+  
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+  }
+  
+  table tr:nth-child(2n-1) td {
+    background: #F5F5F5;
+  }
+  
+ /*  table th,
+  table td {
+    text-align: center;
+  }
+   */
+   table th {
+    color: #5D6975;
+    border-bottom: 1px solid rgb(56, 72, 85);
+    text-align: center;
+    padding-right: 20px;
+  }
+   
+ /*  table .service,
+  table .desc {
+    text-align: left;
+  } */
+  
+  table td {
+    padding: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    padding-left: 30px;
+  }
+  
+  table td.service,
+  table td.desc {
+    vertical-align: top;
+  }
+  
+  table td.unit,
+  table td.qty,
+  table td.total {
+    font-size: 1.2em;
+  }
+  
+    .grandtotal {
+    border-top: 1px solid #5D6975;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  #notices .notice {
+    border-top: 1px solid #C1CED9;
+    color: #5D6975;
+    font-size: 1.2em;
+    width: 90%;
+  }
+  
+  footer {
+    color: #5D6975;
+    width: 90%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #C1CED9;
+    padding: 8px 0;
+    text-align: center;
+  }
+  .subtotal {
+      text-align: right;
+      font-weight: bold;
+  }
+  .grandtotalSum {
+    border-top: 1px solid #5D6975;
+  }
+  .factuur {
+      font-weight: bold;
+      font-size: 14px;
+  }

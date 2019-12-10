@@ -1,0 +1,29 @@
+#resultFound {
+    text-align: center; 
+    padding-top: 10px;
+}
+#pagination {
+    text-align: center;
+}
+
+#subtotal {
+    text-align: right;
+    font-weight: bold;
+}
+.input-group#zoekbalk {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+@media screen and (max-width: 1000px) {
+    .input-group#zoekbalk {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+#zoekKlant {
+    text-align: center;
+    font-style: bold;
+}
+#lijn {
+    border-top: 1px solid darkblue;
+}
