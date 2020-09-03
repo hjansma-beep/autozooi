@@ -1,4 +1,4 @@
-Factureringsprogramma gemaakt PHP + SQL in Laravel framework.
+Factureringsprogramma gemaakt met PHP + SQL in Laravel framework.
 
 database structuur is bijgevoegd met naam sql .
 
