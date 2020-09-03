@@ -2,6 +2,8 @@ Factureringsprogramma gemaakt met PHP + SQL in Laravel framework.
 
 database structuur is bijgevoegd met naam sql .
 
+Voorbeelden staan in het mapje screenshots.
+
 Omschrijving opdracht:
 
 Een groothandel in auto-onderdelen (AutoZooi.nl) wil graag een eenvoudig facturatieprogramma hebben voor hun vaste, zakelijke klanten in de provincie Groningen.
