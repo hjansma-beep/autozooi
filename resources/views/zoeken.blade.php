@@ -47,7 +47,7 @@
                 <td>{{ $part->artikelnummer }}</td>
                 <td>{{ $part->artikelgroep }}</td>
                 <td>{{ $part->omschrijving }}</td>
-                <td>{{ number_format($part->prijs, 2, ',', ' ') }}</td>
+                <td>{{ number_format($part->prijs,2,",",".") }}</td>
                  <td><a href="{{ route('product.addToLijst', ['id' => $part->artikelnummer]) }}"
                                    class="btn btn-success center" role="button">Aan Factuur
                                    toevoegen</a></td>
