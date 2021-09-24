@@ -1,8 +1,6 @@
 Factureringsprogramma gemaakt met PHP + SQL in Laravel framework.
-
 database structuur is bijgevoegd met naam sql .
-
-Voorbeelden staan in het mapje screenshots.
+Screenshots van de website staan in het mapje screenshots.
 
 Omschrijving opdracht:
 
